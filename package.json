@@ -1,0 +1,14 @@
+{
+  "name": "com.github.fjnmgnkai.constrainta",
+  "displayName": "ConstrainTA",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Constraint tools for VRChat (ConstrainTA)",
+  "vpmDependencies": {
+    "com.vrchat.base": "^3.6.0"
+  },
+  "author": {
+    "name": "fjnmgnkai",
+    "url": "https://github.com/fjnmgnkai"
+  }
+}
