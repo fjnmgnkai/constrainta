@@ -1,0 +1,15 @@
+{
+  "name": "com.github.fjnmgnkai.constrainta.editor",
+  "rootNamespace": "ConstrainTA.Editor",
+  "references": [
+    "Constrainta.Runtime"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": []
+}
