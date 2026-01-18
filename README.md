@@ -7,7 +7,7 @@ Installation (Git):
 - Use Unity Package Manager with the repository Git URL, or add to `manifest.json`:
 
 ```
-"com.github.fjnmgnkai.constrainta": "https://github.com/<user>/ConstraintA.git#v1.0.0"
+
 ```
 
 Notes:
@@ -27,28 +27,11 @@ Unity Package Manager / VCC で次の Git URL から追加できます:
 - https://github.com/<user>/ConstraintA.git#v0.1.0
 - または `manifest.json` に追記:
 
-```
-"com.github.fjnmgnkai.constrainta": "https://github.com/<user>/ConstraintA.git#v0.1.0"
-```
 
 ## 注意事項
 - VRChat SDK を含む Unity プロジェクトで使用してください（制約の型は SDK に依存します）。
 - 診断用 UI はデフォルトで無効です。調査目的で有効化するには、Scripting Define Symbols に `CONSTRAINTA_DIAGNOSTICS` を追加してください。
 
-## 公開の簡易手順
-1. リポジトリルートの `package.json` を確認する。
-2. 変更をコミットして GitHub に push する。
-3. リリースタグを作成して push する: `git tag v0.1.0 && git push --tags`
-4. Unity のパッケージマネージャーで上記の Git URL を使って追加する。
-
-## 推奨構成
-- `Runtime/` - ランタイム用の .cs ファイル（Editor 非依存）
-- `Editor/` - エディタ専用の .cs（例: ConstrainTAWindow.cs）
-- `Samples~/` - 任意のサンプルシーン
-
-```
-
----
 
 # ConstrainTA
 
