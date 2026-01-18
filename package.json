@@ -26,10 +26,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fjnmgnkai/ConstraintA.git"
+    "url": "https://github.com/fjnmgnkai/constrainta.git"
   },
-  "documentationUrl": "https://github.com/fjnmgnkai/ConstraintA#readme",
-  "changelogUrl": "https://github.com/fjnmgnkai/ConstraintA/releases",
+  "documentationUrl": "https://github.com/fjnmgnkai/constrainta#readme",
+  "changelogUrl": "https://github.com/fjnmgnkai/constrainta/releases",
   "samples": [],
   "dependencies": {}
 }

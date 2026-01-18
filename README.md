@@ -50,7 +50,6 @@ Unity Package Manager / VCC で次の Git URL から追加できます:
 
 ---
 
-（注）このファイルは英語の README を基にした機械翻訳＋手動調整です。元の英文 README を上書きして良ければ、そのまま使用してください。
 # ConstrainTA
 
 Unity Editor tool for importing and rebuilding VRChat constraints.
