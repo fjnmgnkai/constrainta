@@ -6,57 +6,40 @@ Installation (Git):
 
 - Use Unity Package Manager with the repository Git URL, or add to `manifest.json`:
 
-```
+# ConstrainTA / ConstrainTA
 
-```
+日本語: VRChat の constraint をインポートして再構築する Unity エディターツールです。
 
-Notes:
+English: Unity Editor tool to import and rebuild VRChat constraint setups.
 
-- Requires VRChat SDK; configured via `vpmDependencies` in `package.json`.
-- Runtime and Editor code are separated via asmdef files.
-```markdown
-# ConstrainTA
+---
 
-VRChat の制約（constraints）をインポートして再構築するための Unity エディターツールです。
+## インストール（VCC / Community Repos）
+- VCC の Repositories に次の URL を追加してください:
+  - https://raw.githubusercontent.com/fjnmgnkai/constrainta-vpm/main/vpm.json
 
-## インストール（埋め込み）
-このプロジェクトはパッケージを `Packages/com.github.fjnmgnkai.constrainta` 配下に埋め込んでいます。
+## Install (UPM / Git)
+- Add via Unity Package Manager (Git URL):
+  - https://github.com/fjnmgnkai/constrainta.git#v1.0.0
 
-## インストール（Git URL 経由）
-Unity Package Manager / VCC で次の Git URL から追加できます:
-- https://github.com/<user>/ConstraintA.git#v0.1.0
-- または `manifest.json` に追記:
+## Requirements / 必要条件
+- Unity: 2022.3 LTS 系を推奨
+- VRChat SDK: `com.vrchat.base` がプロジェクトにインストールされていること（vpmDependencies に `^3.6.0` を要求）
 
-
-## 注意事項
-- VRChat SDK を含む Unity プロジェクトで使用してください（制約の型は SDK に依存します）。
-- 診断用 UI はデフォルトで無効です。調査目的で有効化するには、Scripting Define Symbols に `CONSTRAINTA_DIAGNOSTICS` を追加してください。
-
-
-# ConstrainTA
-
-Unity Editor tool for importing and rebuilding VRChat constraints.
-
-## Install (embedded)
-This project embeds the package under `Packages/com.github.fjnmgnkai.constrainta`.
-
-## Install (via Git URL)
-Install via Unity Package Manager / VCC (Git URL):
-- https://github.com/<user>/ConstraintA.git#v0.1.0
-- Or add to manifest.json:
-  "com.github.fjnmgnkai.constrainta": "https://github.com/<user>/ConstraintA.git#v0.1.0"
+## Quick usage
+- Open Window → ConstrainTA to import or rebuild constraints.
+- The tool is editor-only; runtime code is separated into runtime folders.
 
 ## Notes
-- Requires a VRChat SDK project (constraints/types come from the SDK).
-- Diagnostics UI is disabled by default. To enable it for investigation, add `CONSTRAINTA_DIAGNOSTICS` to Scripting Define Symbols.
+- If VCC reports "Compatible package version not found", ensure your project has the VRChat SDK package (`com.vrchat.base`) installed and that VCC's repository list has been refreshed.
 
-## Quick steps to publish:
-1. Ensure package.json at repo root (this folder) is correct.
-2. Commit and push to GitHub.
-3. Tag a release: git tag v0.1.0 && git push --tags
-4. In VCC / Unity, add package by Git URL above.
+## Troubleshooting & Support
+- Report issues at: https://github.com/fjnmgnkai/constrainta/issues
 
-## Project layout (recommended):
-- Runtime/        -> runtime .cs files (non-Editor)
-- Editor/         -> editor-only .cs files (ConstrainTAWindow.cs)
-- Samples~/       -> optional sample scenes
+## License
+- MIT
+
+---
+
+_(This README is trimmed for distribution; see repository for developer notes and tests.)_
+- https://github.com/<user>/ConstraintA.git#v0.1.0
