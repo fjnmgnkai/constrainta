@@ -1,5 +1,5 @@
 # ConstrainTA
-VRChat の constraint をインポートして再構築する Unity エディターツールです。
+VRChat の constraint をインポートして再構築する Unity エディターツールです。<br>
 Unity Editor tool to import and rebuild VRChat constraint setups.
 
 ---
