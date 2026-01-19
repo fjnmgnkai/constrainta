@@ -16,8 +16,8 @@
     "constrainta",
     "vrc"
   ],
-  "vpmDependencies": {
-    "com.vrchat.base": ">=3.10.0"
+  "dependencies": {
+    "com.vrchat.base": "^3.10.0"
   },
   "author": {
     "name": "fjnmgnkai",
@@ -30,6 +30,5 @@
   },
   "documentationUrl": "https://github.com/fjnmgnkai/constrainta#readme",
   "changelogUrl": "https://github.com/fjnmgnkai/constrainta/releases",
-  "samples": [],
-  "dependencies": {}
+  "samples": []
 }
