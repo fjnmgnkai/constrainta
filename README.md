@@ -1,45 +1,29 @@
 # ConstrainTA
-
-ConstrainTA is a Unity editor tool to import and rebuild VRChat constraint setups.
-
-Installation (Git):
-
-- Use Unity Package Manager with the repository Git URL, or add to `manifest.json`:
-
-# ConstrainTA / ConstrainTA
-
-日本語: VRChat の constraint をインポートして再構築する Unity エディターツールです。
-
-English: Unity Editor tool to import and rebuild VRChat constraint setups.
+VRChat の constraint をインポートして再構築する Unity エディターツールです。
+Unity Editor tool to import and rebuild VRChat constraint setups.
 
 ---
-
-## インストール（VCC / Community Repos）
+## 導入方法（VCC / Community Repos）
 - VCC の Repositories に次の URL を追加してください:
   - https://raw.githubusercontent.com/fjnmgnkai/constrainta-vpm/main/vpm.json
+<img width="1583" height="946" alt="image" src="https://github.com/user-attachments/assets/0fa7a557-0dba-4648-8e70-c16e306b257d" />
 
 ## Install (UPM / Git)
 - Add via Unity Package Manager (Git URL):
   - https://github.com/fjnmgnkai/constrainta.git#v1.0.0
+<img width="1583" height="946" alt="image" src="https://github.com/user-attachments/assets/d76e5af9-8c79-4f26-8316-b4dfb28c87f3" />
 
 ## Requirements / 必要条件
-- Unity: 2022.3 LTS 系を推奨
-- VRChat SDK: `com.vrchat.base` がプロジェクトにインストールされていること（vpmDependencies に `^3.6.0` を要求）
+- Unity: 2022.3 LTS 系を使用
+- VRChat SDK: `com.vrchat.base` がプロジェクトにインストールされていること（vpmDependencies に `^3.10.0` を要求）
 
 ## Quick usage
-- Open Window → ConstrainTA to import or rebuild constraints.
-- The tool is editor-only; runtime code is separated into runtime folders.
+- Unityツールバー > Tool > こんすとれいんた～ > こんすとれいんた～
 
-## Notes
-- If VCC reports "Compatible package version not found", ensure your project has the VRChat SDK package (`com.vrchat.base`) installed and that VCC's repository list has been refreshed.
+- Open Window → ConstrainTA to import or rebuild constraints.
 
 ## Troubleshooting & Support
 - Report issues at: https://github.com/fjnmgnkai/constrainta/issues
 
 ## License
 - MIT
-
----
-
-_(This README is trimmed for distribution; see repository for developer notes and tests.)_
-- https://github.com/<user>/ConstraintA.git#v0.1.0
