@@ -17,7 +17,7 @@
     "vrc"
   ],
   "vpmDependencies": {
-    "com.vrchat.base": "^3.10.0"
+    "com.vrchat.base": ">=3.10.0"
   },
   "author": {
     "name": "fjnmgnkai",
