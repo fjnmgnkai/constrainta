@@ -5,15 +5,21 @@ Unity Editor tool to import and rebuild VRChat constraint setups.
 ---
 ## 導入方法（VCC / Community Repos）
 
-### ワンクリックで追加
+### VCCにリポジトリを追加
 
-<a href="vcc://vpm/addRepo?url=https://raw.githubusercontent.com/fjnmgnkai/constrainta-vpm/main/vpm.json">
-  <img src="https://img.shields.io/badge/VCC-リポジトリを追加-blue?style=for-the-badge" alt="Add to VCC">
-</a>
+以下のURLをコピーして、VCCの「Add Repository」に貼り付けてください：
+```
+https://raw.githubusercontent.com/fjnmgnkai/constrainta-vpm/main/vpm.json
+```
 
-> ⚠️ ブラウザで開く場合があります。その場合は手動で追加してください。
+> 💡 コードブロックの右上にある📋アイコンをクリックでコピーできます
 
-### 手動で追加する場合
+#### 手順
+1. VCC (VRChat Creator Companion) を開く
+2. **Settings** → **Packages** → **Add Repository** をクリック
+3. 上記URLを貼り付けて **Add** をクリック
+
+![導入手順](https://private-user-images.githubusercontent.com/160860805/537525581-0fa7a557-0dba-4648-8e70-c16e306b257d.png)
 * VCC の Repositories に次の URL を追加してください:
   + https://raw.githubusercontent.com/fjnmgnkai/constrainta-vpm/main/vpm.json
 <img width="1583" height="946" alt="image" src="https://github.com/user-attachments/assets/0fa7a557-0dba-4648-8e70-c16e306b257d" />
