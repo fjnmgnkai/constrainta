@@ -1,6 +1,5 @@
 # こんすとれいんた～(ベータ版)
 VRChat の constraint をインポートして再構築する Unity エディターツールです。<br>
-Unity Editor tool to import and rebuild VRChat constraint setups.
 
 ---
 ## 導入方法（VCC / Community Repos）
